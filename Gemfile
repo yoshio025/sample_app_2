@@ -6,8 +6,11 @@ ruby '2.5.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
 gem 'bcrypt', '3.1.12'
+gem 'faker', '1.7.3'
+gem 'will_paginate'
 gem 'bootstrap-sass'
-gem 'jquery-rails'
+gem 'jquery-rails', '4.3.3'
+gem 'bootstrap-will_paginate', '1.0.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
